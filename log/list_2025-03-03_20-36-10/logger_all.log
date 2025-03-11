@@ -1,0 +1,60 @@
+[0.166s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/joseph/Turtle_Pursuit']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/joseph/Turtle_Pursuit'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x74a98fba84f0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x74a98fb77400>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x74a98fb77400>>)
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.409s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/joseph/Turtle_Pursuit'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'ros'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['cmake', 'python']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'cmake'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'python'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extensions ['python_setup_py']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit) by extension 'python_setup_py'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/log) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/log) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/log) ignored
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'ros'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['cmake', 'python']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'cmake'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'python'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extensions ['python_setup_py']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src) by extension 'python_setup_py'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extensions ['ignore', 'ignore_ament_install']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extension 'ignore'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extension 'ignore_ament_install'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extensions ['colcon_pkg']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extension 'colcon_pkg'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extensions ['colcon_meta']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extension 'colcon_meta'
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extensions ['ros']
+[0.457s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtle_handlers) by extension 'ros'
+[0.459s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joseph/Turtle_Pursuit/src/turtle_handlers' with type 'ros.ament_python' and name 'turtle_handlers'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extension 'ignore'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extension 'ignore_ament_install'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extensions ['colcon_pkg']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extension 'colcon_pkg'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extensions ['colcon_meta']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extension 'colcon_meta'
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extensions ['ros']
+[0.459s] Level 1:colcon.colcon_core.package_identification:_identify(/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg) by extension 'ros'
+[0.460s] DEBUG:colcon.colcon_core.package_identification:Package '/home/joseph/Turtle_Pursuit/src/turtlesim_custom_msg' with type 'ros.ament_cmake' and name 'turtlesim_custom_msg'
+[0.460s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

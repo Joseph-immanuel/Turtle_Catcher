@@ -1,0 +1,5 @@
+[console_scripts]
+alive_turtle_server = turtle_handlers.Turtle_Alive_Server:main
+catch_turtle = turtle_handlers.Turtle_Main:main
+turtle_manger = turtle_handlers.Turtle_Manager:main
+

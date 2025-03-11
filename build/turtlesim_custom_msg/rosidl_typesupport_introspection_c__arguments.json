@@ -1,0 +1,27 @@
+{
+  "package_name": "turtlesim_custom_msg",
+  "output_dir": "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_typesupport_introspection_c/turtlesim_custom_msg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/GetTurtleAlive.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:msg/Turtle.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:msg/AliveTurtleArray.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/KillTurtle.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/NavigateTurtle.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg/srv/GetTurtleAlive.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg/msg/Turtle.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg/msg/AliveTurtleArray.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg/srv/KillTurtle.idl",
+    "/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg/srv/NavigateTurtle.idl"
+  ]
+}

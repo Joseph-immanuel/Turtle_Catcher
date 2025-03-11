@@ -1,0 +1,24 @@
+{
+    "python.analysis.extraPaths": [
+        "/home/joseph/learn_ros/install/test_pkg/lib/python3.10/site-packages",
+        "/home/joseph/learn_ros/install/pubsub/lib/python3.10/site-packages",
+        "/home/joseph/learn_ros/install/activity/lib/python3.10/site-packages",
+        "/home/joseph/learn_ros/install/practice_interfaces/local/lib/python3.10/dist-packages",
+        "/home/joseph/learn_ros/install/clientserver/lib/python3.10/site-packages",
+        "/home/joseph/turtlesim_catch_turtles/install/handle_turtle/lib/python3.10/site-packages",
+        "/home/joseph/turtlesim_catch_turtles/install/catch_turtles/lib/python3.10/site-packages",
+        "/home/joseph/turtlesim_catch_turtles/install/turtlesim_catch_turtle_interfaces/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/ur5_control/lib/python3.10/site-packages",
+        "/home/joseph/e-Yantra/install/task3b/lib/python3.10/site-packages",
+        "/home/joseph/e-Yantra/install/task2a/lib/python3.10/site-packages",
+        "/home/joseph/e-Yantra/install/servo_msgs/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/pymoveit2/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/payload_service/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/misc/lib/python3.10/site-packages",
+        "/home/joseph/e-Yantra/install/linkattacher_msgs/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/ebot_docking/local/lib/python3.10/dist-packages",
+        "/home/joseph/e-Yantra/install/aruco/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

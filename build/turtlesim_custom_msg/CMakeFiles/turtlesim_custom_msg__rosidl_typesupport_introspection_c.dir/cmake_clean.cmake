@@ -1,0 +1,29 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/alive_turtle_array__type_support.c.o"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/alive_turtle_array__type_support.c.o.d"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/turtle__type_support.c.o"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/turtle__type_support.c.o.d"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/get_turtle_alive__type_support.c.o"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/get_turtle_alive__type_support.c.o.d"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/kill_turtle__type_support.c.o"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/kill_turtle__type_support.c.o.d"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/navigate_turtle__type_support.c.o"
+  "CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/navigate_turtle__type_support.c.o.d"
+  "libturtlesim_custom_msg__rosidl_typesupport_introspection_c.pdb"
+  "libturtlesim_custom_msg__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/alive_turtle_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/alive_turtle_array__type_support.c"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/turtle__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/msg/detail/turtle__type_support.c"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/get_turtle_alive__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/get_turtle_alive__type_support.c"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/kill_turtle__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/kill_turtle__type_support.c"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/navigate_turtle__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/turtlesim_custom_msg/srv/detail/navigate_turtle__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/turtlesim_custom_msg__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

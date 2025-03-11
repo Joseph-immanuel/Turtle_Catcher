@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/joseph/learn_ros/install/practice_interfaces/include/**",
+        "/home/joseph/turtlesim_catch_turtles/install/turtlesim_catch_turtle_interfaces/include/**",
+        "/home/joseph/e-Yantra/install/servo_msgs/include/**",
+        "/home/joseph/e-Yantra/install/realsense_gazebo_plugin/include/**",
+        "/home/joseph/e-Yantra/install/payload_service/include/**",
+        "/home/joseph/e-Yantra/install/linkattacher_msgs/include/**",
+        "/home/joseph/e-Yantra/install/ebot_docking/include/**",
+        "/opt/ros/humble/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

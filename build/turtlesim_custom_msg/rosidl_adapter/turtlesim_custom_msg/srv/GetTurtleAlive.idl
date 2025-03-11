@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from turtlesim_custom_msg/srv/GetTurtleAlive.srv
+// generated code does not contain a copyright notice
+
+
+module turtlesim_custom_msg {
+  module srv {
+    struct GetTurtleAlive_Request {
+      boolean request;
+    };
+    struct GetTurtleAlive_Response {
+      int8 alive_turtles;
+    };
+  };
+};
