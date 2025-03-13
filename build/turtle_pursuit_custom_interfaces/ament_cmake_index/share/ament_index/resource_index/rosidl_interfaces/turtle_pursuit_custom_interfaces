@@ -1,8 +1,0 @@
-msg/AliveTurtleArray.idl
-msg/AliveTurtleArray.msg
-msg/Turtle.idl
-msg/Turtle.msg
-srv/KillTurtle.idl
-srv/KillTurtle.srv
-srv/KillTurtle_Request.msg
-srv/KillTurtle_Response.msg

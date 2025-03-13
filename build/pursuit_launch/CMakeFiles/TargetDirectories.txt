@@ -1,9 +1,0 @@
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/uninstall.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/pursuit_launch_uninstall.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/test.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/edit_cache.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/rebuild_cache.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/list_install_components.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/install.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/install/local.dir
-/home/joseph/Turtle_Pursuit/build/pursuit_launch/CMakeFiles/install/strip.dir
