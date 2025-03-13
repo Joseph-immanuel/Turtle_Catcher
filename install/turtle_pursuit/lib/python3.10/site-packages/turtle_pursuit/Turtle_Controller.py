@@ -16,14 +16,14 @@ class TurtleController(Node):
         self.declare_parameter('Linear_Gain', 1.5)
         self.declare_parameter('Angular_Gain', 1.0)
 
-        self.kd_linear = 1.0
-        self.kd_angular = 0.5
+        self.declare_parameter('KD_Linear', 1.0)
+        self.declare_parameter('KD_Angular', 0.5)
 
         self.previous_distance = 0.0
         self.previous_angle_error = 0.0
         self.previous_time = time.time()
 
-        self.declare_parameter('Position_Tolerance', 0.7)
+        self.declare_parameter('Position_Tolerance', 0.5)
 
         self.declare_parameter("catch_closest_turtle_first", True)
 
@@ -100,31 +100,25 @@ class TurtleController(Node):
 
         if distance > self.get_parameter("Position_Tolerance").value:
             
-            # Get current time
             current_time = time.time()
             dt = current_time - self.previous_time
             if dt == 0: dt = 1e-6  # Prevent division by zero
 
-            # Compute errors
             distance_error = distance
             goal_theta = math.atan2(dist_y, dist_x)
             angle_error = goal_theta - self.turtle1_pose.theta
 
-            # Normalize angle error to [-π, π]
             if angle_error > math.pi:
                 angle_error -= 2 * math.pi
             elif angle_error < -math.pi:
                 angle_error += 2 * math.pi
 
-            # Compute Derivative Terms
             d_distance = (distance_error - self.previous_distance) / dt
             d_angle = (angle_error - self.previous_angle_error) / dt
 
-            # PD Control Equations
-            msg.linear.x = (self.get_parameter("Linear_Gain").value * distance_error) + (self.kd_linear * d_distance)
-            msg.angular.z = (self.get_parameter("Angular_Gain").value * angle_error) + (self.kd_angular * d_angle)
+            msg.linear.x = (self.get_parameter("Linear_Gain").value * distance_error) + (self.get_parameter("KD_Linear").value* d_distance)
+            msg.angular.z = (self.get_parameter("Angular_Gain").value * angle_error) + (self.get_parameter("KD_Angular").value * d_angle)
 
-            # Update previous errors and time
             self.previous_distance = distance_error
             self.previous_angle_error = angle_error
             self.previous_time = current_time
