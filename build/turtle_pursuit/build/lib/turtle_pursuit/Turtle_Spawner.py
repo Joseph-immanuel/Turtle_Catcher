@@ -111,8 +111,8 @@ class TurtleSpawner(Node):
         if len(self.alive_turtle_array) < self.get_parameter("max_turtles").value:
             self.get_logger().info(f"Spawning Turtle{self.spawn_number}")
 
-            x_pose = randint(0, 11) / 1.0
-            y_pose = randint(0, 11) / 1.0
+            x_pose = randint(1, 10) / 1.0
+            y_pose = randint(1, 10) / 1.0
             theta = randint(0, 4) / 1.0
             turtle_name = self.get_parameter("turtle_name_prefix").value + str(self.spawn_number)
             self.spawn_client(turtle_name=turtle_name,
