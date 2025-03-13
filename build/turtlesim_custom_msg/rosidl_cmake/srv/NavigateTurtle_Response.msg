@@ -1,2 +1,0 @@
-
-bool navigation_result

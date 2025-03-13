@@ -1,2 +1,0 @@
-
-int8 alive_turtles

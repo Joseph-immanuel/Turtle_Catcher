@@ -1,0 +1,4 @@
+[console_scripts]
+TurtleController = turtle_pursuit.Turtle_Controller:main
+TurtleSpawner = turtle_pursuit.Turtle_Spawner:main
+

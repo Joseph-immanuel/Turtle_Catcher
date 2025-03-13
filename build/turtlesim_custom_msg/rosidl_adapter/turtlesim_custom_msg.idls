@@ -1,5 +1,0 @@
-/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/GetTurtleAlive.idl
-/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:msg/Turtle.idl
-/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:msg/AliveTurtleArray.idl
-/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/KillTurtle.idl
-/home/joseph/Turtle_Pursuit/build/turtlesim_custom_msg/rosidl_adapter/turtlesim_custom_msg:srv/NavigateTurtle.idl

@@ -1,0 +1,8 @@
+{
+  "package_name": "turtle_pursuit_custom_interfaces",
+  "non_idl_tuples": [
+    "/home/joseph/Turtle_Pursuit/src/turtle_pursuit_custom_interfaces:msg/Turtle.msg",
+    "/home/joseph/Turtle_Pursuit/src/turtle_pursuit_custom_interfaces:msg/AliveTurtleArray.msg",
+    "/home/joseph/Turtle_Pursuit/src/turtle_pursuit_custom_interfaces:srv/KillTurtle.srv"
+  ]
+}

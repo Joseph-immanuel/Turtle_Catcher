@@ -1,0 +1,43 @@
+[0.642s] Invoking command in '/home/joseph/Turtle_Pursuit/src/turtle_pursuit': PYTHONPATH=/home/joseph/Turtle_Pursuit/build/turtle_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_pursuit build --build-base /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build install --record /home/joseph/Turtle_Pursuit/build/turtle_pursuit/install.log --single-version-externally-managed install_data
+[0.869s] running egg_info
+[0.869s] creating ../../build/turtle_pursuit/turtle_pursuit.egg-info
+[0.869s] writing ../../build/turtle_pursuit/turtle_pursuit.egg-info/PKG-INFO
+[0.869s] writing dependency_links to ../../build/turtle_pursuit/turtle_pursuit.egg-info/dependency_links.txt
+[0.869s] writing entry points to ../../build/turtle_pursuit/turtle_pursuit.egg-info/entry_points.txt
+[0.869s] writing requirements to ../../build/turtle_pursuit/turtle_pursuit.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/turtle_pursuit/turtle_pursuit.egg-info/top_level.txt
+[0.870s] writing manifest file '../../build/turtle_pursuit/turtle_pursuit.egg-info/SOURCES.txt'
+[0.871s] reading manifest file '../../build/turtle_pursuit/turtle_pursuit.egg-info/SOURCES.txt'
+[0.871s] writing manifest file '../../build/turtle_pursuit/turtle_pursuit.egg-info/SOURCES.txt'
+[0.871s] running build
+[0.871s] running build_py
+[0.872s] creating /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build
+[0.872s] creating /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib
+[0.872s] creating /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit
+[0.872s] copying turtle_pursuit/Turtle_Controller.py -> /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit
+[0.872s] copying turtle_pursuit/__init__.py -> /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit
+[0.872s] copying turtle_pursuit/Turtle_Spawner.py -> /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit
+[0.872s] running install
+[0.872s] running install_lib
+[0.873s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit
+[0.873s] copying /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit/Turtle_Controller.py -> /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit
+[0.873s] copying /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit/__init__.py -> /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit
+[0.873s] copying /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build/lib/turtle_pursuit/Turtle_Spawner.py -> /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit
+[0.873s] byte-compiling /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit/Turtle_Controller.py to Turtle_Controller.cpython-310.pyc
+[0.874s] byte-compiling /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit/__init__.py to __init__.cpython-310.pyc
+[0.875s] byte-compiling /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit/Turtle_Spawner.py to Turtle_Spawner.cpython-310.pyc
+[0.875s] running install_data
+[0.875s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share
+[0.875s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/ament_index
+[0.875s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/ament_index/resource_index
+[0.876s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/ament_index/resource_index/packages
+[0.876s] copying resource/turtle_pursuit -> /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/ament_index/resource_index/packages
+[0.876s] creating /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/turtle_pursuit
+[0.876s] copying package.xml -> /home/joseph/Turtle_Pursuit/install/turtle_pursuit/share/turtle_pursuit
+[0.876s] running install_egg_info
+[0.877s] Copying ../../build/turtle_pursuit/turtle_pursuit.egg-info to /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages/turtle_pursuit-0.0.0-py3.10.egg-info
+[0.878s] running install_scripts
+[0.893s] Installing TurtleController script to /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/turtle_pursuit
+[0.893s] Installing TurtleSpawner script to /home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/turtle_pursuit
+[0.894s] writing list of installed files to '/home/joseph/Turtle_Pursuit/build/turtle_pursuit/install.log'
+[0.912s] Invoked command in '/home/joseph/Turtle_Pursuit/src/turtle_pursuit' returned '0': PYTHONPATH=/home/joseph/Turtle_Pursuit/build/turtle_pursuit/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/joseph/Turtle_Pursuit/install/turtle_pursuit/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/turtle_pursuit build --build-base /home/joseph/Turtle_Pursuit/build/turtle_pursuit/build install --record /home/joseph/Turtle_Pursuit/build/turtle_pursuit/install.log --single-version-externally-managed install_data
